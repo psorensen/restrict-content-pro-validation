@@ -1,0 +1,27 @@
+{
+	"name": "restrict-content-pro-form-validation",
+	"description": "Provides inline form validation for Restrict Content Pro",
+	"version": "0.0.1",
+	"type": "wordpress-plugin",
+	"keywords": [],
+	"homepage": "http://wordpress.org/plugins",
+	"license": "GPLv2.0+",
+	"authors": [
+		{
+			"name": "Peter Sorensen",
+			"email": "peter.jens.sorensen@gmail.com",
+		
+			"role": "Developer"
+		}
+	],
+    "minimum-stability": "dev",
+	"require": {
+		"php": ">=5.4"
+	},
+    "require-dev": {
+	    "antecedent/patchwork": "1.2.*",
+        "phpunit/phpunit"     : "*@stable",
+	    "brianium/paratest"   : "dev-master",
+        "10up/wp_mock"        : "dev-master"
+    }
+}
