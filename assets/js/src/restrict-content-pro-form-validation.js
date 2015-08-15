@@ -43,6 +43,7 @@
 
   $.validate({
 	   modules : 'jsconf, security',
+	   addValidClassOnAll : true,
 	   onModulesLoaded : function() {
 	    $.setupValidation( config );
 	   }

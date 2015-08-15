@@ -5,3 +5,7 @@
  * Copyright (c) 2015 Peter Sorensen
  * Licensed under the GPLv2+ license.
  */
+input.valid {
+  background-image: url(https://assets-cdn.github.com/images/modules/ajax/success.png);
+  background-repeat: no-repeat;
+  background-position: right 8px center; }
