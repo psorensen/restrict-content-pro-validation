@@ -4,7 +4,8 @@
  * TODO: Use Local Version of Validation Script
  */
 function om_rcp_scripts() {
-	wp_enqueue_script( 'jquery-form-validator', '//cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.2.43/jquery.form-validator.min.js', array('jquery'), '1.0.0', true  );
+	// wp_enqueue_script( 'jquery-form-validator', '//cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.2.43/jquery.form-validator.min.js', array('jquery'), '1.0.0', true  );
+	wp_enqueue_script( 'jquery-form-validator', '//ajax.aspnetcdn.com/ajax/jquery.validate/1.14.0/jquery.validate.js', array('jquery'), '1.0.0', true  );
 	wp_enqueue_script( 'restrict-content-pro-form-validation', RCPFV_URL . '/assets/js/restrict-content-pro-form-validation.min.js', array('jquery'), '1.0.0', true );
 	wp_enqueue_style( 'restrict-content-pro-form-validation-style', RCPFV_URL . '/assets/css/restrict-content-pro-form-validation.min.css');
 
